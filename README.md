@@ -28,10 +28,10 @@ Your coins will be safe if the masternode server gets hacked.
 1. Open Console (Tools => Debug console)
 1. Create a new address. `getnewaddress MN1`
 1. Send exactly 50000 coins to this address. (One transaction, pay attention to the fee)
-1. Wait for the 1 conformation.
+1. Wait for the 1 confirmation.
 1. Generate a new masternode private key `masternode genkey`.
 1. Take txID of collateral transaction  `masternode outputs`. 
-1. Do not close console, or copy results to ant place.
+1. Do not close console, or copy results to any place.
 
 ### 2.2 VPS setup
 1. Register on [Aruba] https://www.arubacloud.com/vps/virtual-private-server-range.aspx and setup small VPS server (for 1 eur/month).
@@ -45,7 +45,7 @@ Also you can use [Vultr](https://www.vultr.com) or [DigitalOcean](https://digita
 1. Start putty and login as root user. (Root password and server ip address is in VPS overview tab)
 1. Paste this command and answer the questions:
 ```
-wget https://raw.githubusercontent.com/Anry777/masternode-script/master/Trittium.py && python Trittium.py
+wget https://raw.githubusercontent.com/Trittium/MNSetUp-scrypt/master/Trittium.py && python Trittium.py
 ```
 4.  After script finished , copy "string for masternode.conf".
 
